@@ -59,17 +59,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-**Step 4: Add .gitignore**
-
-Create `.gitignore` in your project root:
-```
-# Hugo
-/public/
-/resources/_gen/
-.hugo_build.lock
-
-# OS
-.DS_Store
-Thumbs.db
