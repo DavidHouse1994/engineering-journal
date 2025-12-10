@@ -1,0 +1,100 @@
+baseURL = 'https://DavidHouse1994.github.io/'
+languageCode = 'en-us'
+title = 'David Bjorndalen'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = true
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "David Bjorndalen"
+description = "My Engineering Journal"
+keywords = ["Blog", "Portfolio", "Engineering"]
+author = "David Bjorndalen"
+defaultTheme = "auto"
+disableThemeToggle = false
+mainSections = ["posts"]
+
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.profileMode]
+  enabled = false  # Changed to false
+
+  [params.homeInfoParams]
+  Title = "My Engineering Journey"
+  Content = "Projects and achievement diary for my engineering journey"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/DavidHouse1994"
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+URL = "https://github.com/DavidHouse1994/yourrepo/tree/main/content"
+Text = "Suggest Changes"
+appendFilePath = true
+
+# Menu
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+# Search
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
