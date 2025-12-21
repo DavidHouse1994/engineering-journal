@@ -54,6 +54,7 @@ favicon = "/favicon.ico"
 favicon16x16 = "/favicon-16x16.png"
 favicon32x32 = "/favicon-32x32.png"
 apple_touch_icon = "/apple-touch-icon.png"
+customCSS = ["/css/astro-dashboard.css"]
 
 [params.cover]
 hidden = true
@@ -98,3 +99,9 @@ home = ["HTML", "RSS", "JSON"]
 category = "categories"
 tag = "tags"
 series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
