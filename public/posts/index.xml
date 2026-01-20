@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on David Bjorndalen</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on David Bjorndalen</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,33 +13,7 @@
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>An outline of the projects I hope to accomplish in the next 5 years.</description>
-    </item>
-    <item>
-      <title>Asteroid Mining Economics: A Minimal Model</title>
-      <link>http://localhost:1313/posts/asteroid-solar-economics/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/asteroid-solar-economics/</guid>
-      <description>&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;This page is a minimal working demonstration of a browser-based
-economic model for asteroid mining as an input to space-based
-solar panel production.&lt;/p&gt;
-&lt;p&gt;At this stage, the model is intentionally simple.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;layer-one-asteroid-resource-model&#34;&gt;Layer One: Asteroid Resource Model&lt;/h2&gt;
-&lt;p&gt;This layer estimates the cost per kilogram of usable material delivered
-to cislunar space from a single asteroid mining mission.&lt;/p&gt;
-&lt;h3 id=&#34;key-assumptions&#34;&gt;Key Assumptions&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Asteroid mass: 500,000 metric tons&lt;/li&gt;
-&lt;li&gt;Accessible fraction: 20%&lt;/li&gt;
-&lt;li&gt;Useful material fraction: 30%&lt;/li&gt;
-&lt;li&gt;Extraction efficiency: 70%&lt;/li&gt;
-&lt;li&gt;Baseline mission cost: $5 billion&lt;/li&gt;
-&lt;li&gt;Delta-v (round trip): 6 km/s&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These values are deliberately conservative and intended
-to establish order-of-magnitude feasibility.&lt;/p&gt;</description>
+      <description>A summary of my goals over the next 5 years</description>
     </item>
   </channel>
 </rss>

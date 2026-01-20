@@ -77,3 +77,47 @@
     margin-right: 0;
   }
 }
+
+#cost-output-floating {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 280px;
+  padding: 1em 1.2em;
+  background-color: #ffffff; /* light card background */
+  border-radius: 12px;
+  border: 1px solid #e0e0e0; /* subtle border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-family: "Inter", sans-serif;
+  font-size: 0.95em;
+  line-height: 1.4em;
+  color: #111827;
+  z-index: 1000;
+}
+
+/* Optional: Section headers inside the sidebar */
+#cost-output-floating strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+/* Optional: bar-style indicator for delivered mass/cost breakdown */
+.cost-bar {
+  display: flex;
+  align-items: center;
+  margin: 0.25em 0 0.5em;
+}
+
+.cost-bar-inner {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #2563eb; /* primary color */
+  flex-grow: 1;
+  margin-right: 0.5em;
+}
+
+.cost-bar-label {
+  font-size: 0.85em;
+  color: #374151;
+}
