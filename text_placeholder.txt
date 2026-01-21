@@ -1,0 +1,4 @@
+baseURL = 'https://DavidHouse1994.github.io/'
+languageCode = 'en-us'
+title = 'David Bjorndalen'
+theme = 'PaperMod'
